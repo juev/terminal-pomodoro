@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    colorize (0.5.8)
+    terminal-notifier (1.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  terminal-notifier
