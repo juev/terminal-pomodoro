@@ -6,8 +6,8 @@ To interact with the user using a terminal and notification center of OSX 10.8
 
 ##Install
 
-	$ git clone http://pomodoro
-	$ cd pomodoro
+	$ git clone https://github.com/Juev/terminal-pomodoro.git
+	$ cd terminal-pomodoro
 	$ bundle install --path 'vendor'
 
 ##Using
@@ -26,4 +26,5 @@ Otherwise, before you run to change the first line:
 ##Modules
 
 [terminal-notifier](https://github.com/alloy/terminal-notifier)
+
 [colorize](https://github.com/fazibear/colorize)
