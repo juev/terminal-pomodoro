@@ -30,8 +30,9 @@ end
 while true
   (0..REPEAT).each{ |count|
     period(WORK, "Work", :blue)
-    period(REST, "Rest", :gray) if count < REPEAT
-    period(LONG, "Long Rest", :red) if count == REPEAT
+    count == REPEAT ? period(LONG, "Long Rest", :red) : period(REST, "Rest", :gray)
+    # period(REST, "Rest", :gray) if count < REPEAT
+    # period(LONG, "Long Rest", :red) if count == REPEAT
     exit?
   }
 end
