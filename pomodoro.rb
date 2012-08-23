@@ -31,7 +31,7 @@ while true
   (0..REPEAT).each{ |count|
     period(WORK, "Work", :blue)
     period(REST, "Rest", :gray) if count < REPEAT
-    begin period(LONG, "Long Rest", :red); count = 0; end if count == REPEAT
+    period(LONG, "Long Rest", :red) if count == REPEAT
     exit?
   }
 end
