@@ -1,6 +1,6 @@
 #ABOUT
 
-This small program designed for fixing periods of time, which are used in the technique of time management Pomodoro.
+This small program is designed to countdown fixed periods of time, just like the Pomodoro time management technique.
 
 To interact with the user using a terminal and notification center of OSX 10.8
 
@@ -12,8 +12,7 @@ To interact with the user using a terminal and notification center of OSX 10.8
 
 ##Using
 
-To use this program you want installed in the system [rbenv](https://github.com/sstephenson/rbenv).
-Otherwise, before you run to change the first line:
+I recommend using [rbenv](https://github.com/sstephenson/rbenv) with this program. If you don't want to use rbenv, you have to change the first line in `pomodoro.rb`:
 
 *before*
 
